@@ -1,6 +1,21 @@
-module SevenSegment.Color exposing (Color, luminosity, toRGB, toRGBA)
+module SevenSegment.Color exposing
+    ( luminosity
+    , toRGB, toRGBA
+    , Color
+    )
 
 {-| A very minimal / lightweight Color representation that should be easily interoperable with other color libraries.
+
+
+## Analysis
+
+@docs luminosity
+
+
+## Convert to String
+
+@docs toRGB, toRGBA
+
 -}
 
 
