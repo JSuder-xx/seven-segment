@@ -1,6 +1,21 @@
-module SevenSegment exposing (NumberOfDigits(..), SevenSegment, digits, fromInt, intView, minus, view)
+module SevenSegment exposing
+    ( NumberOfDigits(..), intView, view
+    , SevenSegment, digits, minus, fromInt
+    )
 
--- , view, viewInt)
+{-| A `SevenSegment` display renderer.
+
+
+## View
+
+@docs NumberOfDigits, intView, view
+
+
+## Data
+
+@docs SevenSegment, digits, minus, fromInt
+
+-}
 
 import Array
 import Html exposing (Html, div, span)
