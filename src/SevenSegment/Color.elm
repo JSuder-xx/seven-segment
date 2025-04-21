@@ -1,10 +1,15 @@
 module SevenSegment.Color exposing
-    ( luminosity
+    ( Color
+    , luminosity
     , toRGB, toRGBA
-    , Color
     )
 
 {-| A very minimal / lightweight Color representation that should be easily interoperable with other color libraries.
+
+
+## Constructor
+
+@docs Color
 
 
 ## Analysis
@@ -19,7 +24,12 @@ module SevenSegment.Color exposing
 -}
 
 
-{-| A very minimal / lightweight Color representation that should be easily interoperable with other color libraries.
+{-| A very minimal / lightweight Color representation that should be easily interoperable with other color libraries. This is exposed as a simple
+type alias because
+
+  - There should be no reason for this to change in the future based on how it is used in this library.
+  - It is not intended to be a rich Api.
+
 -}
 type alias Color =
     { red : Int, green : Int, blue : Int }
