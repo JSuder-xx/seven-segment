@@ -1,12 +1,9 @@
 {
     "type": "package",
-    "source-directories": [
-        "src"
-    ],
     "name": "jsuder-xx/seven-segment",
     "summary": "A small library for rendering seven-segment displays.",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "SevenSegment",
         "SevenSegment.Color",
@@ -20,8 +17,8 @@
         "elm/virtual-dom": "1.0.3 <= v < 2.0.0"
     },
     "test-dependencies": {
-        "elm-explorations/test": "2.2.0 <= v < 3.0.0",
         "elm/bytes": "1.0.8 <= v < 2.0.0",
-        "elm/random": "1.0.0 <= v < 2.0.0"
+        "elm/random": "1.0.0 <= v < 2.0.0",
+        "elm-explorations/test": "2.2.0 <= v < 3.0.0"
     }
 }
